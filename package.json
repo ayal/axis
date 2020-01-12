@@ -1,0 +1,17 @@
+{
+  "name": "axis",
+  "version": "1.0.0",
+  "description": "Server code is at server.ts (and compiled to server.js)",
+  "main": "dest.js",
+  "scripts": {
+    "start": "tsc server.ts && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "http-auth": "^3.2.4",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,7 @@
+[
+  {"sourceUser": "Alice", "sourceIP": "::1", "destinationHost": "localhost", "destinationPort":"*", "destinationMethod": "*", "action": "allow"},
+  {"sourceUser": "Gil", "sourceIP": "::1", "destinationHost": "localhost", "destinationPort":"*", "destinationMethod": "*", "action": "allow"},
+  {"sourceUser": "Shuky", "sourceIP": "::1", "destinationHost": "localhost", "destinationPort":"*", "destinationMethod": "POST", "action": "allow"},
+  {"sourceUser": "*", "sourceIP": "*", "destinationHost": "*", "destinationPort":"3002", "destinationMethod": "*", "action": "block"},
+  {"sourceUser": "Bob", "sourceIP": "::1", "destinationHost": "localhost", "destinationPort":"3001", "destinationMethod": "POST", "action": "allow"}
+]
