@@ -24,7 +24,7 @@ node desttcp.js
 ```
 Then you can test from the browser with:
 
-##HTTP:
+## HTTP:
 
 From browser, test with:
 
@@ -38,7 +38,7 @@ If you use HTTP GET/POST option with the test TCP server endpoint (port 3002) th
 
 When testing from browser, you might see a failed favicon request in logs, decided not to specifically handle that
 
-##TCP:
+## TCP:
 
 From browser, test with:
 
